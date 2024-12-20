@@ -1,0 +1,8 @@
+# We'll import libraries as needed, but when submitting, 
+# it's best to have them all at the top.
+import pandas as pd
+
+# Load this well-worn dataset:
+url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
+df = pd.read_csv(url) #read CSV into Python as a DataFrame
+df # displays the DataFrame
